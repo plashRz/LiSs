@@ -59,8 +59,8 @@ public class LiSs {
         }
 
         //display LIS
-        for (int x : temp) {
-            System.out.print(x+"\t");
+        for (int x=0;x<biggerSeq;x++) {
+            System.out.print(temp[x]+"\t");
         }
         return biggerSeq;
     }
